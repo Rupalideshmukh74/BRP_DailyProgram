@@ -8,20 +8,36 @@ namespace ConsoleApp12
     {
         static void Main(string[] args)
         {
-            int num, a = 0, b = 1, c;
-            Console.Write("enter limit : ");
-            num = int.Parse(Console.ReadLine());
+            int temp;
+            
+            
+            int[] arr ={36,29,15,5,45};          
+            
 
-            for (int i = 0; i <num; i++)
+            
+            for (int i = 0; i < arr.Length; i++)
             {
-                Console.WriteLine(a+ " ");
-                c = a + b;
-                a = b;
-                b = c;
+                for (int j = 0; j < arr.Length-1-i ; j++)
+                {
+                    if (arr[j] > arr[j + 1])
+                    {
+                        temp = arr[j];
+                        arr[j] = arr[j + 1];
+                        arr[j + 1] = temp;
+                    }
+
+                }
+                
+               
             }
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+           
 
         }
 
-
-        }
     }
+}
+    
