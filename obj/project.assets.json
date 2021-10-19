@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\ConsoleApp12\\Buzz no.csproj",
-      "projectName": "Buzz no",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\ConsoleApp12\\Buzz no.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\ConsoleApp12\\BRP_Program.csproj",
+      "projectName": "BRP_Program",
+      "projectPath": "C:\\Users\\admin\\source\\repos\\ConsoleApp12\\BRP_Program.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\admin\\source\\repos\\ConsoleApp12\\obj\\",
       "projectStyle": "PackageReference",
