@@ -1,0 +1,13 @@
+C:\Users\admin\source\repos\ConsoleApp12\bin\Debug\netcoreapp3.1\BRP_Program.exe
+C:\Users\admin\source\repos\ConsoleApp12\bin\Debug\netcoreapp3.1\BRP_Program.deps.json
+C:\Users\admin\source\repos\ConsoleApp12\bin\Debug\netcoreapp3.1\BRP_Program.runtimeconfig.json
+C:\Users\admin\source\repos\ConsoleApp12\bin\Debug\netcoreapp3.1\BRP_Program.runtimeconfig.dev.json
+C:\Users\admin\source\repos\ConsoleApp12\bin\Debug\netcoreapp3.1\BRP_Program.dll
+C:\Users\admin\source\repos\ConsoleApp12\bin\Debug\netcoreapp3.1\BRP_Program.pdb
+C:\Users\admin\source\repos\ConsoleApp12\obj\Debug\netcoreapp3.1\BRP_Program.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\ConsoleApp12\obj\Debug\netcoreapp3.1\BRP_Program.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\ConsoleApp12\obj\Debug\netcoreapp3.1\BRP_Program.AssemblyInfo.cs
+C:\Users\admin\source\repos\ConsoleApp12\obj\Debug\netcoreapp3.1\BRP_Program.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\ConsoleApp12\obj\Debug\netcoreapp3.1\BRP_Program.dll
+C:\Users\admin\source\repos\ConsoleApp12\obj\Debug\netcoreapp3.1\BRP_Program.pdb
+C:\Users\admin\source\repos\ConsoleApp12\obj\Debug\netcoreapp3.1\BRP_Program.genruntimeconfig.cache

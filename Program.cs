@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 
 namespace ConsoleApp12
 {
@@ -6,22 +8,20 @@ namespace ConsoleApp12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter any number");
-            int number = Convert.ToInt32(Console.ReadLine());
+            int num, a = 0, b = 1, c;
+            Console.Write("enter limit : ");
+            num = int.Parse(Console.ReadLine());
 
-            if (number % 10 == 7 || number % 7 == 0)
+            for (int i = 0; i <num; i++)
             {
-                Console.WriteLine(" number is Buzz Number");
+                Console.WriteLine(a+ " ");
+                c = a + b;
+                a = b;
+                b = c;
             }
-            else
-            {
-                Console.WriteLine("number is Not a Buzz Number");
-            }
-            Class1 obj = new Class1();
-            obj.CheckAutoMorpicNumber();
 
         }
 
 
-    }
+        }
     }
