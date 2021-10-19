@@ -8,33 +8,37 @@ namespace ConsoleApp12
     {
         static void Main(string[] args)
         {
-            int temp;
-            
-            
-            int[] arr ={36,29,15,5,45};          
-            
 
-            
-            for (int i = 0; i < arr.Length; i++)
+            Console.WriteLine("Enter size of Array : ");
+            int size = int.Parse(Console.ReadLine());
+            int[] a = new int [size];
+            Console.WriteLine("Array Elements Are : ");
+            for (int i = 0; i <a.Length; i++)
             {
-                for (int j = 0; j < arr.Length-1-i ; j++)
+                a[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("After Sorting elements are : ");
+            int temp;
+            for (int i = 0; i < a.Length; i++)
+            {
+                for (int j = 0; j < a.Length-1-i; j++)
                 {
-                    if (arr[j] > arr[j + 1])
+                    if (a[j] > a[j+1])
                     {
-                        temp = arr[j];
-                        arr[j] = arr[j + 1];
-                        arr[j + 1] = temp;
+                        temp = a[j];
+                        a[j] = a[j + 1];
+                        a[j + 1] = temp;
                     }
 
                 }
-                
-               
+
             }
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < a.Length; i++)
             {
-                Console.WriteLine(arr[i]);
+                Console.WriteLine(a[i] + " ");
             }
-           
+            
+
 
         }
 
